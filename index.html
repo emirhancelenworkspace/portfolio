@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolyom</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=smart_toy"
+    />
+  </head>
+  <body>
+    <section id="0">
+      <nav class="navbar">
+        <ul>
+          <div class="listtext">
+            <li><a href="#1">About Me</a></li>
+            <li><a href="#2">What's Going On</a></li>
+            <li><a href="#3">What is Done</a></li>
+            <li><a href="#4">Education</a></li>
+          </div>
+        </ul>
+        <div class="navside">
+          <a href="#" id="themeToggle" class="action-btn">🌗 Switch Theme</a>
+          <script>
+            document
+              .getElementById("themeToggle")
+              .addEventListener("click", function (event) {
+                event.preventDefault(); // sayfa yukarı çıkmasın
+                document.body.classList.toggle("lighttheme");
+              });
+          </script>
+          <a href="#" id="google_translate_element" class="lang-btn">Language</a>
+          
+        </div>
+      </nav>
+    </section>
+
+    <section id="1">
+      <div class="container lighttheme">
+        <div class="text">
+          <h1>Welcome to My Website!</h1>
+          <p>Here are the projects of mine, just give it a try!</p>
+          <p>
+            Welcome to my corner of the web. This is more than just a personal
+            portfolio — it’s a dynamic space where ideas turn into projects, and
+            curiosity evolves into real-world applications. Whether you're here
+            to explore what I've built, check out what I'm working on, or simply
+            get a sense of how I approach software development, you're in the
+            right place. Everything you see here reflects both where I’ve been
+            and where I’m heading. From simple interface designs to long-term
+            application ideas, this site holds the blueprint of my growth. Some
+            features are still under construction — because learning never
+            really stops. Stick around, click through, and explore. You might
+            discover a project that inspires you, or even one you want to build
+            with me.
+          </p>
+        </div>
+
+        <img src="images/portre.png" alt="portre" />
+      </div>
+    </section>
+    <section id="2">
+      <div class="wgocontainer">
+        <h1>What's Going On</h1>
+        <div class="wgoboxes">
+          <div class="wgobox">
+            <img src="images/aifoto.png" alt="robot" />
+            <h1>Ai Development</h1>
+            <p>
+              Artificial Intelligence is not just about mimicking human thinking
+              — it's about expanding the boundaries of what we think is
+              possible. I'm actively exploring areas like image processing,
+              natural language understanding, and machine learning. My goal is
+              to build intelligent systems that feel intuitive and helpful in
+              real-life situations. For me, AI isn't a passing trend; it's a
+              fundamental shift in how we solve problems and design the future.
+            </p>
+          </div>
+          <div class="wgobox">
+            <img src="images/webdesign.png" alt="robot" />
+            <h1>Full-Stack Development</h1>
+            <p>
+              To build strong AI applications, I believe you need full control
+              of the software pipeline. That’s why I focus on full stack
+              development. On the frontend, I aim to create clean, user-focused
+              interfaces, while on the backend I work on efficient data handling
+              and API integration. This foundation allows me to bring my AI
+              ideas to life without relying heavily on others — I can go from
+              concept to deployment on my own.
+            </p>
+          </div>
+          <div class="wgobox">
+            <img src="images/cars.png" alt="robot" />
+            <h1>Car Industry and Developments</h1>
+            <p>
+              Cars are more than transportation — they’re where hardware and
+              software meet in the real world. I’ve been researching how smart
+              systems are being integrated into vehicles, from autonomous
+              driving tech to digital dashboards and UX design. The automotive
+              industry fascinates me not just for its complexity, but for how
+              much potential there is for innovation. It’s a field I hope to
+              contribute to in the near future.
+            </p>
+          </div>
+          <div class="wgobox">
+            <img src="images/books.png" alt="robot" />
+            <h1>Kitap Blogum Project</h1>
+            <p>
+              I started this project out of a very simple need: to remember and
+              revisit the lines that impacted me in books. “Kitap Blogum” lets
+              users save personal notes tied to specific pages, creating a
+              searchable, personalized reading archive. Over time, I plan to
+              expand it into a social platform, where people can share
+              highlights, recommend books, and see what others are reading. It’s
+              where reading meets digital reflection.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="3">
+      <div class="wgocontainer">
+        <h1>What is Done</h1>
+        <div class="wgoboxes">
+          <div class="wgobox">
+            <img src="images/saulogo.jpg" alt="robot" id="ozelfoto"/>
+            <h1>1. Grade of University</h1>
+            <h6>27/06/2025</h6>
+            <p>
+              I have done my 1. grade of university. A year while getting ready to learn what is software, what is a software program, what is an algorithm, how we develop and how we make a secure website.
+            </p>
+          </div>
+          <div class="wgobox">
+            <img src="images/illegalfilm.png" alt="robot" id="ozelfoto2"/>
+            <h1>Illegal Film Project</h1>
+            <h6>16/05/2025</h6>
+            <p>
+              This project was given to us from our User Interface teacher. We made a website which gives our user suggestions about What to Watch. We seperated the movies via their kind, we also worked on giving you the details as the IMDB point, topic, release date and how long. It's a static website. 
+            </p>
+          </div>
+          <div class="wgobox">
+            <img src="images/books.png" alt="robot" />
+            <h1>English Course</h1>
+            <h6>23/09/2024</h6>
+            <p>
+              I am happy to tell you that I am done with my English Course from Wimbledon Academy. I now have Summit Level of English which is almost equal to C1. Thanks for all you have done Wimbledon Academy.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <div class="buttonslide">
+      <button><a href="#0">^</a></button>
+      <script src="script.js"></script>
+      
+  </body>
+</html>
